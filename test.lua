@@ -26,7 +26,7 @@ Player.Idled:Connect(function()
 	Virtual:ClickButton2(Vector2.new())
 end)
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/LaundryGui/main/LaundryGui.txt"))()("Laundry Simulator", Enum.KeyCode.E, {}, function()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/masterhhaha/Unknow/refs/heads/main/LaundryGui.txt"))()("Laundry Simulator", Enum.KeyCode.E, {}, function()
 	Configuration.Autofarm.TrueAutoFarm = false
 	Configuration.Autofarm.Grabbing = false
 	MainSignal:Disconnect()
